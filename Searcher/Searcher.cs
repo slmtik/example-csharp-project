@@ -5,7 +5,7 @@ public class Searcher
     {
         Dictionary<int, bool> primeNumberCheck = new();
 
-        for (int i = 2; i < max; i++)
+        for (int i = 3; i < max; i++)
             if (!primeNumberCheck.ContainsKey(i))
             {
                 primeNumberCheck.Add(i, true);
