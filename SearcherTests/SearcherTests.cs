@@ -1,5 +1,3 @@
-using Primer;
-
 namespace Primer.SearcherTests;
 
 [TestClass]
